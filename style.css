@@ -59,7 +59,75 @@
         height: 80px;
         width: 80px;
     }
+}
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.articulos-horarios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+ }
+
+.articulos-principales { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 
 }
-    
+.articulo1 {
+    background-color: rgb(202, 255, 233);
+    padding: 10px;
+    margin: 10px;
+}
+
+.articulo2 {
+    background-color: rgb(202, 255, 233);
+    padding: 10px;
+    margin: 10px;
+}
+
+.horarios { 
+    background-color: rgb(202, 255, 233);
+    padding: 10px;
+    margin: 10px;
+    text-align: start;
+}
+
+.opiniones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    background-color: rgb(240, 202, 255);
+    padding: 10px;
+    margin: 10px;
+}
+
+.opinion1 {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.opinion2 {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: bisque;
+}
