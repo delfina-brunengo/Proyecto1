@@ -171,15 +171,44 @@ footer {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 
 .section-article {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 
     background-color: rgb(240, 202, 255);
+    width: 100vw;
     padding: 10px;
     margin: 10px;
 }
+
+.article-imagen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+
+}
+.articulos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.mochi {
+    text-align: center;
+}
+
+
+.formulario-ubicacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
