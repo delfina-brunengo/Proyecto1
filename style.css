@@ -133,6 +133,10 @@ footer {
 .todos-productos {
     display: flex;
     flex-direction: row;
+
+    
+
+    width: 95vw;
 }
 
 .article1 {
@@ -145,8 +149,15 @@ footer {
   padding: 10px;
   margin: 5px;
   background-color: rgb(255, 226, 226);
+
+  width: 25%;
 }
 
+.imagen-productos{
+    object-fit: cover;
+    width: 100%;
+    max-width: 250px;
+}
 .sobre-nosotras {
     display: flex;
     flex-direction: column;
